@@ -5,6 +5,12 @@
 * Return: Always 0.
 */
 int main(void)
+
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float f;
 {
 	printf("Size of a char: %zu bytes(s)\n", sizeof(char));
 	printf("Size of a int: %zu bytes(s)\n", sizeof(int));
