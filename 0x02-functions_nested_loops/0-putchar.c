@@ -3,7 +3,9 @@
 /**
  * main - print _putchar
  *
-@@ -12,9 +12,9 @@ int main(void)
+ * -12,9 +12,9 
+ */
+int main(void)
 
 	for (i = 0; i <= 7; i++)
 	{
