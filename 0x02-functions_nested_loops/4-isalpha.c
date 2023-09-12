@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * _isalpha - shows 1 if input isna letter. Otherwise 0
 *
