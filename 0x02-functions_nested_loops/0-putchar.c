@@ -1,22 +1,17 @@
+#include <stdio.h>
 #include "main.h"
-
-
 /**
- * main - Entry point of my code,
+ * main - print _putchar
  *
- * Return: Always 0
- */
+@@ -12,9 +12,9 @@ int main(void)
 
-int main (void)
-{
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('y');
-_putchar('\n');
-return (0);
+	for (i = 0; i <= 7; i++)
+	{
+		putchar(c[i]);
+		_putchar(c[i]);
+	}
+	putchar('\n');
+	_putchar('\n');
+
+	return (0);
 }
